@@ -1,0 +1,19 @@
+What Happens When You Type https://www.google.com in Your Browser and press Enter?
+
+Ever wondered what really happens when you type "https://www.google.com" in your browser and hit "Enter"? Let's dive into the journey of how technology brings you to the Google homepage.
+
+First, there's the Domain Name System (DNS), acting like a massive phone book for the internet. It translates human-readable domain names into computer-friendly IP addresses. Your browser sends a DNS request to find the corresponding IP address. If it's already stored locally, your browser retrieves it. Otherwise, it asks a recursive DNS server, provided by your Internet Service Provider (ISP), which quickly finds the IP address or directs the query to other DNS servers. Eventually, the IP address is found and returned to your computer, all in milliseconds.
+
+Next, TCP/IP (Transmission Control Protocol/Internet Protocol) ensures data packets are sent and received correctly between your computer and the Google server, acting like the postal service of the internet.
+
+Then, there's the firewall, a protective barrier between your computer and the internet. It analyses incoming and outgoing data packets, allowing or blocking them based on predefined rules, adding an extra layer of security.
+
+HTTPS/SSL encrypts data transmitted between your browser and the server, ensuring security and confidentiality. SSL verifies the authenticity of the server, enabling data encryption. When you see the padlock icon in your browser's address bar, it indicates a secure connection.
+
+A load balancer distributes incoming requests across multiple servers, ensuring the Google website stays fast and responsive, even during busy times.
+
+Behind the scenes, a web server hosts the Google homepage, delivering content upon request. An application server handles dynamic content generation and user interaction, making features like real-time search results possible.
+
+Lastly, there's the database, where specific information is stored and retrieved as needed. In Google's case, it holds vast amounts of data, including search results.
+
+Accessing Google involves many moving parts, from DNS lookups to secure connections and load balancing. Each piece plays a crucial role in ensuring you get the information you need. So, next time you hit "Enter" in your browser, appreciate the intricate web of technology making it possible. It's pretty amazing when you think about it! 😊
